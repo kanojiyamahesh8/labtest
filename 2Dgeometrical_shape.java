@@ -13,7 +13,7 @@ public void perimeter_cal()
 {
 System.out.println("Enter the radius");
 Scanner mk=new Scanner(System.in);
-double radius=scan.nextDouble();
+double radius=mk.nextDouble();
 perimeter=2*3.14*radius;
 }
 }
@@ -24,7 +24,7 @@ public void perimeter_cal()
 {
 System.out.println("Enter the side");
 Scanner mk=new Scanner(System.in);
-double side=scan.nextDouble();
+double side=mk.nextDouble();
 area=side*side
 }
 }
